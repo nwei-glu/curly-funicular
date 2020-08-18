@@ -23,7 +23,7 @@ class Counter extends React.Component {
   render() {
     return (
       <div>
-        <h2>Counter with plain react</h2>
+        <h2>Counter with redux</h2>
         <div>
           <button onClick={this.decrement}>-</button>
           <span>{this.state.count}</span>
